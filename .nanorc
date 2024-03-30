@@ -1,0 +1,10 @@
+set linenumbers
+set casesensitive
+set autoindent
+#set mouse
+set tabsize 2
+set titlecolor cyan
+set numbercolor blue
+set keycolor blue
+set statuscolor blue
+set functioncolor cyan
