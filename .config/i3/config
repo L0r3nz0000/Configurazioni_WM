@@ -56,7 +56,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -263,7 +263,7 @@ exec_always --no-startup-id spotify
 bindsym $mod+x exec /home/$USER/.config/scripts/lock
 
 ## Funzioni grafiche aggiuntive
-exec_always picom
+exec_always picom --animations --animation-for-open-window=zoom &
 
 ## Spazi tra le fiestre
 gaps inner 15
